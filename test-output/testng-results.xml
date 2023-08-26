@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-05T22:50:12 IST" name="Suite" finished-at="2023-08-05T22:50:32 IST" duration-ms="20362">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:RaahulShettyAcademyy.tests.SubmitOrderTest@5ddeb7cb]" name="submitOrder" class="RaahulShettyAcademyy.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-08-05T22:50:12 IST" name="Test1" finished-at="2023-08-05T22:50:12 IST" duration-ms="12">
+    </test> <!-- Test1 -->
+    <test started-at="2023-08-05T22:50:12 IST" name="Test" finished-at="2023-08-05T22:50:32 IST" duration-ms="20362">
+      <class name="RaahulShettyAcademyy.tests.SubmitOrderTest">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RaahulShettyAcademyy.tests.SubmitOrderTest@5ddeb7cb]" started-at="2023-08-05T22:50:12 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-05T22:50:22 IST" duration-ms="9735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=1234Tarak@, product=ZARA COAT 3, email=1234taraka@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RaahulShettyAcademyy.tests.SubmitOrderTest@5ddeb7cb]" started-at="2023-08-05T22:50:22 IST" name="tearDown" finished-at="2023-08-05T22:50:22 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RaahulShettyAcademyy.tests.SubmitOrderTest@5ddeb7cb]" started-at="2023-08-05T22:50:22 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-05T22:50:32 IST" duration-ms="9973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=1234Tarak@, product=ZARA COAT 3, email=1234taraka@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RaahulShettyAcademyy.tests.SubmitOrderTest@5ddeb7cb]" started-at="2023-08-05T22:50:32 IST" name="tearDown" finished-at="2023-08-05T22:50:32 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RaahulShettyAcademyy.tests.SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
